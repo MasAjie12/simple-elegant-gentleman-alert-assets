@@ -1,0 +1,5 @@
+html,body{overflow:hidden!important;margin:0;padding:0;background:transparent}
+.card,.subathon-container,#ms_container,#__next>div{background:#15191dee!important;border:1px solid #d9b87880!important;border-radius:12px!important;box-shadow:0 8px 24px #0006!important;color:#f8f6f0!important;font-family:'DM Sans',sans-serif!important;overflow:hidden!important}
+.sub_judul,.sub_judul strong,.card-header,#__next>div>.chakra-heading{font-family:'Playfair Display',serif!important;color:#d9b878!important;font-size:22px!important;letter-spacing:1px!important;text-shadow:0 2px 8px #0009!important;border-bottom:1px solid #d9b87880!important;padding-bottom:8px!important;margin-bottom:12px!important;display:block!important}
+.progress{height:8px!important;background:#000000a0!important;border:1px solid #d9b87850!important;border-radius:999px!important;overflow:hidden!important}
+.progress-bar{background:linear-gradient(90deg,#b89b5e,#f0d49b)!important;box-shadow:0 0 10px #d9b87870!important}
