@@ -11,6 +11,8 @@ def alert_html(platform):
     """Inline full alert (HTML + external CSS) inside an iframe-friendly box."""
     inner = (ROOT / f"{platform}-alert.html").read_text(encoding="utf-8")
     style = css(f"{platform}-alert.css")
+    # Replace tokens with dummy data
+    inner = inner.replace('{amount}', 'Rp 50.000').replace('{donator}', 'Sample Donator').replace('{supporter}', 'Sample Supporter').replace('{from_text}', 'dari').replace('{message}', 'Terima kasih atas dukungannya!')
     return inner.replace("</html>", f"<style>{style}</style></html>")
 
 PREVIEW = """<!doctype html><html lang="id"><head><meta charset="utf-8">
